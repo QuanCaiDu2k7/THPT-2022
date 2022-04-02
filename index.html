@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<head>
+    
+    <link href='https://www.blogger.com/static/v1/widgets/1324390690-widget_css_bundle.css' rel='stylesheet' type='text/css' />
+    <meta charset='UTF-8' />
+    <title>Đếm Ngược Thi THPT 2022</title>
+    <meta property="og:image" content="./public/images/avt.jpg">
+    <meta name="description" content="x[ Đếm Ngược Thi THPT 2022 ]x">
+    <link rel="shortcut icon" href="./public/images/avt.jpg">
+    <meta content='width=device-width, initial-scale=1.0' name='viewport' />
+    <link href='https://pay.chongscam247.com/trinh-ngoc-minh/images/favicon.ico' rel='shortcut icon' type='image/x-icon' />
+    <link href='https://cdn.jsdelivr.net/gh/leanhducprovn/cdn/font-awesome/pro-5.15.3/css/all.css' rel='stylesheet' />
+    <link rel="stylesheet" href="./public/css/app.css">
+    <link rel="stylesheet" href="./public/css/responsive.css">
+    <link rel="stylesheet" href="./public/css/vendor.css">
+    <style id='page-skin-1' type='text/css'>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+        html {
+            height: 100%;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .wrapper,
+        .wrapper .social-icons a,
+        .buttons button {
+            background: #ecf0f3;
+            box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+        }
+
+        .wrapper {
+            position: relative;
+            width: 350px;
+            padding: 30px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .wrapper .icon {
+            font-size: 17px;
+            color: #31344b;
+            position: absolute;
+            cursor: pointer;
+            opacity: 0.7;
+            top: 15px;
+            height: 35px;
+            width: 35px;
+            text-align: center;
+            line-height: 35px;
+            border-radius: 50%;
+            font-size: 16px;
+        }
+
+        .wrapper .icon i {
+            position: relative;
+            z-index: 9;
+        }
+
+        .wrapper .icon.arrow {
+            left: 15px;
+        }
+
+        .wrapper .icon.dots {
+            right: 15px;
+        }
+
+        .wrapper .img-area {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .img-area .inner-area {
+            height: calc(100% - 25px);
+            width: calc(100% - 25px);
+            border-radius: 50%;
+        }
+
+        .inner-area img {
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .wrapper .name {
+            font-size: 25px;
+            font-weight: 500;
+            color: #4b4a5f;
+            margin: 10px 0 10px 0;
+        }
+
+        .wrapper .about {
+            color: #44476a;
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+        .wrapper .social-icons {
+            margin: 15px 0 25px 0;
+        }
+
+        .social-icons a {
+            position: relative;
+            height: 40px;
+            width: 40px;
+            margin: 0 5px;
+            display: inline-flex;
+            text-decoration: none;
+            border-radius: 50%;
+        }
+
+        .social-icons a:hover::before,
+        .wrapper .icon:hover::before,
+        .buttons button:hover:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            border-radius: 50%;
+            background: #ecf0f3;
+            box-shadow: inset -3px -3px 7px #ffffff, inset 3px 3px 5px #ceced1;
+        }
+
+        .buttons button:hover:before {
+            z-index: -1;
+            border-radius: 5px;
+        }
+
+        .social-icons a i {
+            position: relative;
+            z-index: 3;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            line-height: 40px;
+        }
+
+        .social-icons a.fb i {
+            color: #1094bd;
+        }
+
+        .social-icons a.web i {
+            color: #1094bd;
+        }
+
+        .social-icons a.insta i {
+            color: #070707;
+        }
+
+        .social-icons a.yt i {
+            color: #ff0000;
+        }
+
+        .wrapper .buttons {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+        }
+
+        .buttons button {
+            position: relative;
+            width: 100%;
+            border: none;
+            outline: none;
+            padding: 12px 0;
+            color: #31344b;
+            font-size: 17px;
+            font-weight: 400;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 4;
+        }
+
+        .buttons button:first-child {
+            margin-right: 10px;
+        }
+
+        .buttons button:last-child {
+            margin-left: 10px;
+        }
+
+        .wrapper .social-share {
+            display: flex;
+            width: 100%;
+            margin-top: 30px;
+            padding: 0 5px;
+            justify-content: space-between;
+        }
+
+        .social-share .row {
+            color: #31344b;
+            font-size: 17px;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .social-share .row::before {
+            position: absolute;
+            content: "";
+            height: 100%;
+            width: 2px;
+            background: #e0e6eb;
+            margin-left: -25px;
+        }
+
+        .row:first-child::before {
+            background: none;
+        }
+
+        .social-share .row i.icon-2 {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            color: #31344b;
+            transform: translateY(-50%);
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s ease;
+        }
+
+        .row:nth-child(1):hover i.fa-heart,
+        .row:nth-child(2):hover i.fa-comment {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        /** Background Hover **/
+
+        .bg {
+            animation: slide 3s ease-in-out infinite alternate;
+            background-image: linear-gradient(-60deg, rgb(211, 116, 206) 50%, #09f 50%);
+            bottom: 0;
+            left: -50%;
+            opacity: .5;
+            position: fixed;
+            right: -50%;
+            top: 0;
+            z-index: -1;
+        }
+
+        .bg2 {
+            animation-direction: alternate-reverse;
+            animation-duration: 4s;
+        }
+
+        .bg3 {
+            animation-duration: 5s;
+        }
+
+        .content {
+            background-color: rgba(255, 255, 255, .8);
+            border-radius: .25em;
+            box-shadow: 0 0 .25em rgba(0, 0, 0, .25);
+            box-sizing: border-box;
+            left: 50%;
+            padding: 10vmin;
+            position: fixed;
+            text-align: center;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .thanks {
+            color: #ff0000;
+            border-radius: 4px;
+            font-family: Almendra SC;
+            margin: 7px;
+            text-shadow: 1px 2px 2px #000;
+        }
+
+        h1 {
+            font-family: monospace;
+        }
+        
+        @-webkit-keyframes my {
+            0% { color: #ff0000; } 
+            50% { color: #cecb25;  } 
+            100% { color: #cfc3c0;  } 
+        }
+        @-moz-keyframes my { 
+            0% { color: #8e6bdf;  } 
+            50% { color: #1ae2d8;  }
+            100% { color: #eb2b6b;  } 
+        }
+        @-o-keyframes my { 
+            0% { color: #0d80ad; } 
+            50% { color: #34ee53; } 
+            100% { color: #e5f553;  } 
+        }
+        @keyframes my { 
+            0% { color: #4412f7;  } 
+        } 
+        .test {
+                font-size:24px;
+                font-weight:bold;
+        }
+
+        
+        @keyframes slide {
+            0% {
+                transform: translateX(-25%);
+            }
+            100% {
+                transform: translateX(25%);
+            }
+        }
+
+
+        -->
+    </style>
+    
+
+    <script>
+        //<![CDATA[
+
+        var uri = window.location.toString();
+
+        if (uri.indexOf("?m=1", "?m=0") > 0) {
+
+            var clean_uri = uri.substring(0, uri.indexOf("?m=1"));
+
+            window.history.replaceState({}, document.title, clean_uri);
+
+        }
+
+        //]]>
+    </script>
+
+    
+    <meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109' />
+    <meta name='google-adsense-platform-domain' content='blogspot.com' />
+
+</head>
+
+<body>
+    <div class='no-items section' id='quan'></div>
+    <div class='bg'></div>
+    <div class='bg bg2'></div>
+    <div class='bg bg3'></div>
+    <div class='wrapper'>
+        <div class='img-area'>
+            <div class='inner-area'>
+                <img src="./public/images/avt.jpg">
+            </div>
+        </div>
+        <div class='icon arrow'><i class='fas fa-arrow-left' onclick='notify()'></i></div>
+        <div class='icon dots'><i class='fas fa-expand' onclick='screen()'></i></div>
+        <div size="5px" color="white">
+            <div  class="thanks">.::[ <span>Chỉ Còn</span> ]::.</div>
+        </div>
+            
+                <div class='thanks'>
+                    <div id="home">
+                        <div id="center">
+                        </div>
+                        <div>
+                    <script language="javascript" src="xscript.js"></script>
+                        </div>
+                    </div>
+                </i class='fas fa-check-circle' style='color: #1094bd;font-size:19px;'></i></div>
+            
+        <script>
+            function play() {
+                var audio = document.getElementById("lagu");
+                audio.play();
+            }
+    
+            function pause() {
+                var audio = document.getElementById("lagu");
+                audio.pause();
+            }
+        </script>
+        <div class='buttons'>
+            <button onclick="play()">Play Music</button>
+            <button onclick="pause()">Pause Music</button>
+            <audio id="lagu" src="./public/images/nhac.mp3"></audio>
+        </div>
+    <script>
+        //<![CDATA[
+
+        var uri = window.location.toString();
+        if (uri.indexOf("?m=1", "?m=1") > 0) {
+            var clean_uri = uri.substring(0, uri.indexOf("?m=1"));
+            window.history.replaceState({}, document.title, clean_uri);
+        }
+
+        //]]>
+    </script>
+    <script src='https://cdn.trinhngocminh.com/all/screen.js'></script>
+    <script src='https://cdn.trinhngocminh.com/all/heart.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+    <script src='https://unpkg.com/sweetalert/dist/sweetalert.min.js'></script>
+
+    
+
+</body>
+
+</html>
